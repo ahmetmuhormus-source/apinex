@@ -20,6 +20,46 @@
         "id": 1,
         "kural": "Her veri ve işlem kaydedilir, geri dönüş yapılabilir.",
         "sebep": "APINEX unutmaz, dijital fabrika kalıcıdır."
+      },
+      {
+        "id": 2,
+        "kural": "Tüm işlemler sistematik, adım adım ve doğrulanmış veri ile yapılır.",
+        "sebep": "Halüsinasyon ve hatalı veri üretimi engellenir."
+      },
+      {
+        "id": 3,
+        "kural": "Ana AI, merkezi kontrol (Kraliçe Arı) sürekli tüm ajanları denetler.",
+        "sebep": "Sistem bütünlüğü ve güvenlik sağlanır."
+      },
+      {
+        "id": 4,
+        "kural": "Her AI ajan kendi görev alanında çalışır ve çıktısını kaydeder (Petek → Bal).",
+        "sebep": "Her veri ve analiz, merkezi hafızada birikerek değer üretir."
+      },
+      {
+        "id": 5,
+        "kural": "Kullanıcı adım adım ilerler, her adım kayıtlı olur, sistemi bozmadan öğrenir.",
+        "sebep": "Stajyer düzeyinde bile proje güvenle ilerler."
+      },
+      {
+        "id": 6,
+        "kural": "APINEX sadece güvenilir ve doğrulanmış verileri işler.",
+        "sebep": "Yapay zeka halüsinasyonu engellenir."
+      },
+      {
+        "id": 7,
+        "kural": "Sistem her zaman geri dönebilir ve eski sürümlere erişebilir.",
+        "sebep": "Projede esneklik ve sürdürülebilirlik sağlanır."
+      },
+      {
+        "id": 8,
+        "kural": "Tema ve metafor arı ekosistemine sadık kalır.",
+        "sebep": "Proje konsepti tutarlılığı ve anlaşılabilirliği korunur."
+      },
+      {
+        "id": 9,
+        "kural": "Tüm AI ajanları, veri pipeline, rapor motoru ve kullanıcı paneli ortak kurallar çerçevesinde çalışır.",
+        "sebep": "Sistem entegre, güvenli ve ölçeklenebilir olur."
       }
     ],
     "felsefe": {
@@ -31,5 +71,72 @@
         "Sistem kullanıcıya rehberlik eder ama bağımsız çalışır."
       ],
       "vizyon": "Kendi dijital fabrikamı kurmak ve sürekli öğrenen, hatırlayan, üretken bir AI ekosistemi oluşturmak."
+    },
+    "motorlar": {
+      "ai_agent_sistemi": {
+        "aciklama": "Pazar verilerini toplayan, analiz eden ve rapor oluşturan otomatik AI ajanları",
+        "ajanlar": [
+          {
+            "isim": "Trend Tarayıcı Ajan",
+            "gorev": "internet trendlerini tespit etmek",
+            "kaynaklar": ["Google Trends", "Product Hunt", "Hacker News"],
+            "cikti": ["trend skorları", "büyüme oranı", "trend kategorisi"]
+          },
+          {
+            "isim": "Problem Avcısı Ajan",
+            "gorev": "gerçek kullanıcı problemlerini bulmak",
+            "kaynaklar": ["Reddit", "Twitter", "Indie Hackers", "Stack Overflow"],
+            "cikti": ["problem açıklaması", "problem sıklığı", "problem kategorisi"]
+          },
+          {
+            "isim": "Rakip Analiz Ajanı",
+            "gorev": "mevcut SaaS ürünlerini analiz etmek",
+            "kaynaklar": ["G2", "Capterra", "Product Hunt"],
+            "cikti": ["rakip ürün listesi", "fiyatlandırma", "özellik karşılaştırması"]
+          },
+          {
+            "isim": "Fırsat Analiz Ajanı",
+            "gorev": "toplanan verilerden SaaS fırsatı üretmek",
+            "analiz_kriterleri": ["pazar talebi", "rekabet yoğunluğu", "fiyatlandırma potansiyeli", "trend büyüme oranı"],
+            "cikti": ["fırsat skoru", "SaaS iş fikri", "MVP önerisi"]
+          }
+        ]
+      },
+      "veri_pipeline_mimarisi": {
+        "aciklama": "Verinin internetten alınarak analiz edilmesine kadar olan süreç",
+        "pipeline": [
+          {
+            "adim": "veri_toplama",
+            "yontemler": ["API veri çekme", "web scraping", "RSS veri okuma"]
+          },
+          {
+            "adim": "veri_temizleme",
+            "yontemler": ["spam veri filtreleme", "duplicate veri kaldırma", "format standartlaştırma"]
+          },
+          {
+            "adim": "veri_analiz",
+            "yontemler": ["AI metin analizi", "trend analiz algoritması", "sentiment analizi"]
+          },
+          {
+            "adim": "firsat_skorlama",
+            "yontemler": ["AI opportunity scoring", "pazar büyüme tahmini", "rekabet yoğunluğu hesaplama"]
+          },
+          {
+            "adim": "rapor_uretme",
+            "cikti": ["startup radar raporu", "SaaS fırsat raporu", "pazar trend raporu"]
+          }
+        ]
+      },
+      "opportunity_scoring_engine": {
+        "amac": "her SaaS fikri için fırsat puanı hesaplamak",
+        "skor_kriterleri": [
+          { "kriter": "pazar_talebi", "agirlik": 30 },
+          { "kriter": "rekabet_seviyesi", "agirlik": 25 },
+          { "kriter": "trend_buyume", "agirlik": 20 },
+          { "kriter": "fiyatlandirma_potansiyeli", "agirlik": 15 },
+          { "kriter": "teknik_zorluk", "agirlik": 10 }
+        ],
+        "skor_araligi": "0-100"
+      }
     }
   }
