@@ -1,0 +1,35 @@
+{
+    "proje": {
+      "isim": "APINEX",
+      "tema": "arı ekosistemi",
+      "amac": "Kendi dijital akıllı fabrikamı kurmak, veri ve yapay zekayla sürdürülebilir SaaS fırsatlarını üretmek",
+      "kurucusu": "Ahmet Örmüş",
+      "tip": "kişisel AI SaaS platformu",
+      "simgeler": {
+        "kovan": "ana proje yapısı",
+        "kraliçe_ari": "ana AI/merkezi kontrol",
+        "isci_ari": "AI ajanlar",
+        "petek": "veri blokları",
+        "bal": "üretilen değer/rapor",
+        "polen": "toplanan veri",
+        "igne": "güvenlik mekanizması"
+      }
+    },
+    "kurallar": [
+      {
+        "id": 1,
+        "kural": "Her veri ve işlem kaydedilir, geri dönüş yapılabilir.",
+        "sebep": "APINEX unutmaz, dijital fabrika kalıcıdır."
+      }
+    ],
+    "felsefe": {
+      "ana": "APINEX bir dijital kovan, her veri bir petek, her rapor bal, her AI ajan bir işçi arı ve Kraliçe Arı sistemi yönetir.",
+      "etik": [
+        "Her veri güvenli olmalı.",
+        "Her analiz doğrulanmış olmalı.",
+        "Her karar şeffaf ve kayıtlı olmalı.",
+        "Sistem kullanıcıya rehberlik eder ama bağımsız çalışır."
+      ],
+      "vizyon": "Kendi dijital fabrikamı kurmak ve sürekli öğrenen, hatırlayan, üretken bir AI ekosistemi oluşturmak."
+    }
+  }
