@@ -1,0 +1,21 @@
+{
+  "name": "apinex",
+  "version": "1.0.0",
+  "description": "APINEX - AI powered digital hive system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetmuhormus-source/apinex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ahmetmuhormus-source/apinex/issues"
+  },
+  "homepage": "https://github.com/ahmetmuhormus-source/apinex#readme"
+}
