@@ -1,0 +1,29 @@
+{
+  "product": "Drift",
+  "reviews": [
+    {
+      "source": "G2",
+      "rating": 2,
+      "title": "Powerful but expensive",
+      "body": "The platform is powerful but pricing is too expensive and setup is confusing for our small team."
+    },
+    {
+      "source": "Capterra",
+      "rating": 3,
+      "title": "Good features, hard implementation",
+      "body": "Implementation took too long and the configuration felt complex. Support was also slow."
+    },
+    {
+      "source": "TrustRadius",
+      "rating": 2,
+      "title": "Reporting is limited",
+      "body": "Analytics and reporting are limited, and CRM integration caused multiple issues during onboarding."
+    },
+    {
+      "source": "Reddit",
+      "rating": 1,
+      "title": "Terrible setup",
+      "body": "Absolute nightmare."
+    }
+  ]
+}

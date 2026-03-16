@@ -1,0 +1,106 @@
+{
+  "durum": "Aktif",
+  "servis": "PainHive",
+  "zaman_damgasi": "2026-03-16T20:00:00.000Z",
+  "veri": {
+    "urun": "Drift",
+    "analiz_tipi": "yorum_analizi_ve_aci_noktasi_cikarma",
+    "toplam_yorum": 4,
+    "islenen_yorum": 3,
+    "negatif_yorum_sayisi": 3,
+    "karantina_yorum_sayisi": 1,
+    "elenen_yorum_sayisi": 0,
+    "veri_temizligi_skoru": 85,
+    "kaynak_ozeti": ["G2", "Capterra", "TrustRadius"],
+    "baskin_aci_noktalari": [
+      {
+        "tag": "kurulum_karmasik",
+        "etiket": "Kurulum karmasik",
+        "is_etkisi": "Ilk deger alma suresi uzar ve onboarding zorlasir.",
+        "tekrar_sayisi": 3,
+        "siddet_skoru": 11,
+        "kaynaklar": ["G2", "Capterra", "TrustRadius"],
+        "anahtar_kelimeler": ["pricing", "setup", "implementation", "support", "integration", "analytics", "reporting"],
+        "ornek_yorumlar": [
+          {
+            "kaynak": "G2",
+            "puan": 2,
+            "alinti": "The platform is powerful but pricing is too expensive and setup is confusing for our small team."
+          },
+          {
+            "kaynak": "Capterra",
+            "puan": 3,
+            "alinti": "Implementation took too long and the configuration felt complex. Support was also slow."
+          },
+          {
+            "kaynak": "TrustRadius",
+            "puan": 2,
+            "alinti": "Analytics and reporting are limited, and CRM integration caused multiple issues during onboarding."
+          }
+        ]
+      }
+    ],
+    "aci_noktasi_sayisi": 1,
+    "karantina_havuzu": [
+      {
+        "id": "yorum_4",
+        "kaynak": "Reddit",
+        "puan": 1,
+        "baslik": "Terrible setup",
+        "alinti": "Absolute nightmare.",
+        "karakter_sayisi": 19,
+        "kelime_sayisi": 2,
+        "inceleme_durumu": "ikincil_inceleme_bekliyor",
+        "nedenler": [
+          {
+            "kod": "short_negative_rating",
+            "aciklama": "Yorum kalite esigini gecmedi ama negatif puan tasiyor."
+          },
+          {
+            "kod": "strong_emotion_signal",
+            "aciklama": "Yorum kalite esigini gecmedi ama guclu duygu sinyali tasiyor.",
+            "eslesen_anahtar_kelimeler": ["terrible", "nightmare"]
+          }
+        ]
+      }
+    ],
+    "ikincil_inceleme_ozeti": {
+      "durum": "aktif",
+      "karantina_kaynagi_sayisi": 1,
+      "baskin_duygu": "ofke",
+      "baskin_sinyal": "kisa_negatif_puan",
+      "tekrar_eden_kisa_sikayet_desenleri": [
+        {
+          "deger": "terrible",
+          "tekrar": 1
+        },
+        {
+          "deger": "nightmare",
+          "tekrar": 1
+        }
+      ],
+      "ana_rapora_not": "Karantina havuzunda sinyal var ama henuz ana raporu etkileyecek yogunlukta degil."
+    },
+    "karantina_sinyal_etiketleri": [
+      "kisa_negatif_puan",
+      "guclu_duygu_sinyali"
+    ],
+    "yonetici_ozeti": "Drift icin en guclu aci noktasi Kurulum karmasik. 3 yorumda tekrar ediyor ve en cok G2, Capterra, TrustRadius kaynaginda goruluyor. Bu durum bize su sinyali veriyor: Ilk deger alma suresi uzar ve onboarding zorlasir.",
+    "eyleme_donuk_firsatlar": [
+      {
+        "tag": "kurulum_karmasik",
+        "etiket": "Kurulum karmasik",
+        "firsat": "Uzun kurulum ve zor onboarding yerine hizli devreye alma deneyimi sunan bir urun boslugu var.",
+        "deger_onerisi": "Dakikalar icinde kurulan, teknik bagimliligi azaltan ve ilk degeri hizlandiran deneyim sun.",
+        "urun_hipotezi": "Tek tikla kurulum, hazir entegrasyon paketleri veya migration asistani olan bir onboarding modulu tasarlanabilir.",
+        "oncelik_seviyesi": "yuksek",
+        "oncelik_gerekcesi": "Ilk deger alma geciktikce urun benimsenmesi, deneme donusumu ve ekip ici guven duser.",
+        "dayanak_aci_noktasi": {
+          "tekrar_sayisi": 3,
+          "siddet_skoru": 11,
+          "kaynaklar": ["G2", "Capterra", "TrustRadius"]
+        }
+      }
+    ]
+  }
+}

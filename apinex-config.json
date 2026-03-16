@@ -1,0 +1,383 @@
+{
+  "project": {
+    "name": "APINEX",
+    "type": "AI SaaS Platform",
+    "concept": "Digital Hive Intelligence System",
+    "founder": "Ahmet Örmüş",
+    "vision": "Kendi kendine öğrenen, veri toplayan ve SaaS fırsatlarını keşfeden dijital fabrika",
+    "mission": "AI ile pazar analizi yaparak yüksek potansiyelli SaaS fikirlerini keşfetmek"
+  },
+  "language_modes": {
+    "default": "TR",
+    "available": ["TR", "ENG"]
+  },
+  "ui_modes": {
+    "theme": ["light", "dark"]
+  },
+  "branding": {
+    "theme": "Bee Ecosystem",
+    "colors": {
+      "primary": "#FFC107",
+      "secondary": "#1B1B1B",
+      "accent": "#FFB300"
+    },
+    "symbols": [
+      "hive",
+      "honeycomb",
+      "queen bee",
+      "worker bee",
+      "pollen",
+      "honey"
+    ]
+  },
+  "core_system": {
+    "central_ai": {
+      "name": "Queen Bee",
+      "role": "Main intelligence controlling all agents"
+    },
+    "agents": [
+      {
+        "name": "Scout Bee",
+        "role": "Market scanning agent",
+        "function": "internet ve veri kaynaklarını tarar"
+      },
+      {
+        "name": "Analyst Bee",
+        "role": "Data analysis agent",
+        "function": "toplanan verileri analiz eder"
+      },
+      {
+        "name": "Builder Bee",
+        "role": "Product idea generator",
+        "function": "SaaS fikirleri üretir"
+      },
+      {
+        "name": "Guard Bee",
+        "role": "Security and validation",
+        "function": "veri doğrulama"
+      }
+    ]
+  },
+  "data_system": {
+    "structure": {
+      "pollen": "raw market data",
+      "honeycomb": "database storage",
+      "honey": "insights and reports"
+    }
+  },
+  "modules": {
+    "market_radar": {
+      "name": "MarketRadar AI",
+      "purpose": "Gerçek veri ile SaaS fırsatlarını keşfetmek",
+      "data_sources": [
+        "startup directories",
+        "SaaS marketplaces",
+        "product launch platforms",
+        "developer communities",
+        "market reports"
+      ],
+      "outputs": [
+        "market opportunity score",
+        "competition map",
+        "revenue potential",
+        "trend analysis"
+      ]
+    },
+    "idea_lab": {
+      "name": "IdeaHive",
+      "purpose": "AI ile SaaS fikir üretme"
+    },
+    "validation_engine": {
+      "name": "ProofHoney",
+      "purpose": "fikirlerin gerçek pazar verisi ile doğrulanması"
+    }
+  },
+  "user_roles": {
+    "founder": {
+      "role": "Hive Master",
+      "permissions": "tüm sistemi yönetir"
+    }
+  },
+  "business_model": {
+    "pricing": {
+      "type": "subscription",
+      "currency": "USD"
+    }
+  },
+  "development_rules": [
+    "Tüm veri kaynakları doğrulanmış olmalı",
+    "Her analiz kaydedilmeli",
+    "AI çıktıları tekrar kontrol edilmeli",
+    "Sistem modüler olmalı",
+    "Her ajan bağımsız çalışabilmeli"
+  ],
+  "scout_bee_scoring": {
+    "version": "v1",
+    "total_score": 100,
+    "priority_order": ["yorum", "oy", "kategori"],
+    "priority_categories": [
+      "Developer Tools",
+      "Security",
+      "Productivity",
+      "Artificial Intelligence",
+      "AI",
+      "Analytics"
+    ],
+    "comment_score_bands": [
+      { "min": 40, "score": 35 },
+      { "min": 20, "score": 30 },
+      { "min": 10, "score": 24 },
+      { "min": 5, "score": 15 },
+      { "min": 1, "score": 8 },
+      { "min": 0, "score": 0 }
+    ],
+    "vote_score_bands": [
+      { "min": 200, "score": 30 },
+      { "min": 100, "score": 24 },
+      { "min": 50, "score": 18 },
+      { "min": 25, "score": 10 },
+      { "min": 0, "score": 5 }
+    ],
+    "category_match_scores": {
+      "0": 0,
+      "1": 10,
+      "2": 15,
+      "3_plus": 20
+    },
+    "engagement_ratio_bands": [
+      { "min": 0.1, "score": 10 },
+      { "min": 0.05, "score": 8 },
+      { "min": 0.02, "score": 5 },
+      { "min": 0, "score": 2 }
+    ],
+    "problem_keywords": [
+      "security",
+      "secure",
+      "developer",
+      "developers",
+      "productivity",
+      "analytics",
+      "analysis",
+      "automation",
+      "workflow",
+      "team",
+      "teams",
+      "agent",
+      "agents",
+      "monitoring",
+      "data",
+      "platform",
+      "cli"
+    ],
+    "decision_bands": [
+      { "min": 80, "label": "detayli_incele" },
+      { "min": 60, "label": "izlemeye_deger" },
+      { "min": 40, "label": "zayif_sinyal" },
+      { "min": 0, "label": "ele" }
+    ]
+  },
+  "scout_bee_detailed_analysis": {
+    "priority_market_categories": [
+      "Developer Tools",
+      "Security",
+      "Productivity",
+      "Artificial Intelligence",
+      "AI",
+      "Analytics"
+    ],
+    "high_signal_score_threshold": 80,
+    "medium_signal_score_threshold": 60,
+    "high_competition_vote_threshold": 150,
+    "high_comment_threshold": 20,
+    "niche_keywords": [
+      "cli",
+      "agent",
+      "agents",
+      "security",
+      "workspace",
+      "monitoring",
+      "automation",
+      "developer",
+      "team"
+    ],
+    "revenue_keywords": [
+      "platform",
+      "security",
+      "workflow",
+      "analytics",
+      "team",
+      "developer",
+      "automation",
+      "workspace",
+      "productivity"
+    ]
+  },
+  "review_analysis_engine": {
+    "version": "v1",
+    "supported_sources": ["G2", "Capterra", "TrustRadius", "GetApp", "Reddit"],
+    "source_weights": {
+      "G2": 1,
+      "Capterra": 1,
+      "TrustRadius": 1,
+      "GetApp": 0.9,
+      "Reddit": 0.7
+    },
+    "minimum_review_body_length": 20,
+    "negative_rating_threshold": 3,
+    "negative_signal_keywords": [
+      "expensive",
+      "pricing",
+      "price",
+      "cost",
+      "complex",
+      "confusing",
+      "hard",
+      "difficult",
+      "slow",
+      "bug",
+      "issue",
+      "problem",
+      "integration",
+      "support",
+      "missing",
+      "limited"
+    ],
+    "quarantine_rules": {
+      "minimum_body_length": 8,
+      "minimum_word_count": 2,
+      "emotion_signal_keywords": [
+        "terrible",
+        "awful",
+        "hate",
+        "worst",
+        "broken",
+        "frustrating",
+        "useless",
+        "nightmare",
+        "berbat",
+        "rezalet",
+        "sinir",
+        "kotu"
+      ],
+      "reason_codes": {
+        "short_negative_rating": "Yorum kalite esigini gecmedi ama negatif puan tasiyor.",
+        "negative_keyword_signal": "Yorum kalite esigini gecmedi ama negatif anahtar kelime tasiyor.",
+        "strong_emotion_signal": "Yorum kalite esigini gecmedi ama guclu duygu sinyali tasiyor."
+      }
+    },
+    "secondary_review_rules": {
+      "emotion_taxonomy": {
+        "ofke": ["terrible", "awful", "hate", "worst", "berbat", "rezalet"],
+        "hayal_kirikligi": ["frustrating", "useless", "limited", "missing", "kotu"],
+        "guvensizlik": ["broken", "nightmare", "bug", "issue", "problem"]
+      },
+      "signal_label_map": {
+        "short_negative_rating": "kisa_negatif_puan",
+        "negative_keyword_signal": "negatif_sorun_sinyali",
+        "strong_emotion_signal": "guclu_duygu_sinyali"
+      },
+      "escalation_thresholds": {
+        "high_signal_count": 2,
+        "high_quarantine_count": 2
+      }
+    },
+    "pain_taxonomy": {
+      "fiyat_pahali": {
+        "label": "Fiyat pahali",
+        "business_impact": "Satin alma bariyeri yukselir ve KOBI segmenti kacar.",
+        "keywords": ["expensive", "pricing", "price", "cost", "overpriced", "too much"]
+      },
+      "kurulum_karmasik": {
+        "label": "Kurulum karmasik",
+        "business_impact": "Ilk deger alma suresi uzar ve onboarding zorlasir.",
+        "keywords": ["setup", "implementation", "onboarding", "configure", "configuration", "difficult to set up", "hard to implement"]
+      },
+      "kullanim_zor": {
+        "label": "Kullanim zor",
+        "business_impact": "Benimseme duser ve ekip ici surtunme artar.",
+        "keywords": ["confusing", "complex", "learning curve", "hard to use", "not intuitive", "clunky"]
+      },
+      "entegrasyon_sorunu": {
+        "label": "Entegrasyon sorunu",
+        "business_impact": "Urun mevcut is akisina giremez ve bagimli maliyetler artar.",
+        "keywords": ["integration", "integrations", "sync", "api", "crm", "salesforce", "hubspot"]
+      },
+      "destek_zayif": {
+        "label": "Destek zayif",
+        "business_impact": "Musteri guveni duser ve yenileme riske girer.",
+        "keywords": ["support", "customer service", "response time", "helpful", "unresponsive", "slow support"]
+      },
+      "eksik_ozellik": {
+        "label": "Eksik ozellik",
+        "business_impact": "Musteri rakibe kayar veya ek arac maliyeti olusur.",
+        "keywords": ["missing", "lack", "limited", "feature request", "wish it had", "doesn't have"]
+      },
+      "performans_sorunu": {
+        "label": "Performans sorunu",
+        "business_impact": "Gunluk kullanim bozulur ve operasyonel guven azalir.",
+        "keywords": ["slow", "bug", "bugs", "crash", "lag", "performance", "unstable"]
+      },
+      "olcumleme_zayif": {
+        "label": "Olcumleme zayif",
+        "business_impact": "ROI gormek zorlasir ve yonetici guveni azalir.",
+        "keywords": ["reporting", "analytics", "metrics", "dashboard", "insights", "tracking"]
+      }
+    },
+    "opportunity_templates": {
+      "fiyat_pahali": {
+        "firsat": "Pahali ve karmasik fiyatlandirma yerine daha net ve erisilebilir bir alternatif sunma boslugu var.",
+        "deger_onerisi": "Daha hizli karar verilen, surpriz maliyet cikarmayan ve KOBI dostu fiyat deneyimi sun.",
+        "urun_hipotezi": "Kullanim bazli veya sade paketli bir alternatif urun ya da fiyatlandirma katmani tasarlanabilir.",
+        "oncelik_gerekcesi": "Fiyat bariyeri satin alma kararini dogrudan durdurur ve talebi erken asamada kaybettirir."
+      },
+      "kurulum_karmasik": {
+        "firsat": "Uzun kurulum ve zor onboarding yerine hizli devreye alma deneyimi sunan bir urun boslugu var.",
+        "deger_onerisi": "Dakikalar icinde kurulan, teknik bagimliligi azaltan ve ilk degeri hizlandiran deneyim sun.",
+        "urun_hipotezi": "Tek tikla kurulum, hazir entegrasyon paketleri veya migration asistani olan bir onboarding modulu tasarlanabilir.",
+        "oncelik_gerekcesi": "Ilk deger alma geciktikce urun benimsenmesi, deneme donusumu ve ekip ici guven duser."
+      },
+      "kullanim_zor": {
+        "firsat": "Karmasik arayuzler yerine ekiplerin hizla adapte oldugu daha sezgisel is akislarina alan var.",
+        "deger_onerisi": "Daha az egitim ihtiyaci olan, daha hizli ogrenilen ve gunluk kullanimda surtunmeyi azaltan deneyim sun.",
+        "urun_hipotezi": "Rol bazli basit ekranlar, gorev odakli arayuzler veya AI destekli kullanim yardimcisi olan bir deneyim katmani kurulabilir.",
+        "oncelik_gerekcesi": "Kullanim zorlugu lisans olsa bile gercek benimsemeyi dusurur ve ekiplerin urunden kopmasina yol acar."
+      },
+      "entegrasyon_sorunu": {
+        "firsat": "Mevcut araclarla kolay baglanan ve veri akisini kesmeyen entegrasyon odakli cozum boslugu var.",
+        "deger_onerisi": "Var olan CRM, destek ve raporlama araclarina hizli baglanan sorunsuz veri akisi sun.",
+        "urun_hipotezi": "Hazir connector kutuphanesi, no-code senkronizasyon katmani veya entegrasyon saglik paneli olan bir modul gelistirilebilir.",
+        "oncelik_gerekcesi": "Entegrasyon sorunu urunu tek basina iyi olsa bile mevcut is akisina girmesini engeller."
+      },
+      "destek_zayif": {
+        "firsat": "Yavas ve guvensiz destek deneyimi yerine daha gorunur ve hizli cozum veren servis modeli icin alan var.",
+        "deger_onerisi": "Musteriye hizli cevap veren, sorun cozum surecini seffaf gosteren ve guven veren destek deneyimi sun.",
+        "urun_hipotezi": "Onceliklendirme motoru, self-servis cozum merkezi veya SLA gorunurlugu olan destek katmani tasarlanabilir.",
+        "oncelik_gerekcesi": "Destek zayifligi churn riskini ve yenileme kaybini dogrudan artirir."
+      },
+      "eksik_ozellik": {
+        "firsat": "Rakiplerde eksik kalan cekirdek ihtiyaclari daha net kapsayan odakli ozellik seti icin bosluk var.",
+        "deger_onerisi": "Kullaniciya ek arac alma zorunlulugu cikarmayan daha tam ve odakli bir cozum sun.",
+        "urun_hipotezi": "En cok tekrar eden eksikligi merkeze alan nis moduller veya eklenti paketi gelistirilebilir.",
+        "oncelik_gerekcesi": "Eksik ozellikler musteriye ek maliyet yukler ve rakibe gecis kararini hizlandirir."
+      },
+      "performans_sorunu": {
+        "firsat": "Yavas ve guvensiz deneyim yerine operasyonel olarak stabil ve hizli cozumler icin net alan var.",
+        "deger_onerisi": "Daha hizli, daha stabil ve kritik is akislarinda guven veren bir kullanim deneyimi sun.",
+        "urun_hipotezi": "Performans izleme paneli, hafif istemci mimarisi veya hata onceliklendirme modulu gelistirilebilir.",
+        "oncelik_gerekcesi": "Performans sorunlari gunluk kullanimi bozdugu icin memnuniyetsizlik hizla yayilir."
+      },
+      "olcumleme_zayif": {
+        "firsat": "Yoneticilerin ROI ve ekip performansini net gormesini saglayan olcumleme odakli cozum boslugu var.",
+        "deger_onerisi": "Sonucu kolay anlatan, karar vereni guclendiren ve ROI gorunurlugu saglayan raporlama deneyimi sun.",
+        "urun_hipotezi": "Hazir KPI panelleri, yonetici ozetleri veya hedefe bagli raporlama modulu tasarlanabilir.",
+        "oncelik_gerekcesi": "Olcumleme zayif oldugunda urunun degeri yonetime anlatilamaz ve butce savunmasi zorlasir."
+      }
+    }
+  },
+  "long_term_goal": {
+    "phase_1": "AI market radar",
+    "phase_2": "SaaS idea generator",
+    "phase_3": "automated SaaS builder",
+    "phase_4": "AI digital factory"
+  }
+}
