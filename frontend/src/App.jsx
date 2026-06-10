@@ -9,6 +9,7 @@ import {
   useLocation,
   useNavigate,
 } from 'react-router-dom'
+import { ResortPlanPage } from './ResortPlanPage'
 
 const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000').replace(/\/+$/, '')
 const RESULT_STORAGE_KEY = 'apinex-review-result'
@@ -57,6 +58,7 @@ function App() {
             <Link to="/review">Review Analyze</Link>
             <Link to="/results">Sonuc</Link>
             <Link to="/scout">Scout</Link>
+            <Link to="/resort">Mekan Planı</Link>
           </nav>
         </header>
 
@@ -66,6 +68,7 @@ function App() {
             <Route path="/review" element={<ReviewAnalyzePage />} />
             <Route path="/results" element={<ResultsPage />} />
             <Route path="/scout" element={<ScoutPage />} />
+            <Route path="/resort" element={<ResortPlanPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
